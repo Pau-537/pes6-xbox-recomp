@@ -1,0 +1,25 @@
+[2026-10-27 22:05:07.033] [info] [gpu] [t10900] DXGI adapter: NVIDIA GeForce GTX 1080 (vendor 0x10DE, device 0x1B80)
+[2026-10-27 22:05:07.199] [info] [gpu] [t10900] Direct3D 12 device and OS features:
+* Max GPU virtual address bits per resource: 40
+* Non-zeroed heap creation: yes
+* Pixel-shader-specified stencil reference: no
+* Programmable sample positions: tier 2
+* Rasterizer-ordered views: yes
+* Resource binding: tier 3
+* Tiled resources: tier 3
+* Unaligned block-compressed textures: no
+[2026-10-27 22:05:07.262] [info] [sys] [t10900] Guest memory arena mapped: virtual base 0x0000000100000000, physical base 0x0000000200000000
+[2026-10-27 22:05:07.322] [info] [core] [t10900] Function table initialized for module: code=82100000-82B467B8, image=82000000-831C0000
+[2026-10-27 22:05:07.567] [warning] [core] [t10900] SDL GameControllerDB: file 'gamecontrollerdb.txt' does not exist.
+[2026-10-27 22:05:07.567] [info] [core] [t10900] SDL input driver initialized successfully
+[2026-10-27 22:05:07.639] [info] [core] [t10900] Initializing shader storage for title 4B4E07DA...
+[2026-10-27 22:05:07.644] [info] [gpu] [t11024] Translated 64 shaders from the storage in 2 milliseconds
+[2026-10-27 22:05:07.670] [info] [gpu] [t11024] Created 92 graphics pipelines (not including reading the descriptions) from the storage in 26 milliseconds
+[2026-10-27 22:05:07.673] [info] [gpu] [t15920] SetInterruptCallback(8210BBE8, 40003100)
+[2026-10-27 22:05:07.726] [info] [apu] [t15920] audio endpoint 'Parlante (NVIDIA High Definition Audio)': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-27 22:05:09.661] [info] [core] [t15920] SDL OnControllerDeviceAdded: "XInput Controller #1", JoystickType(1), GameControllerType(2), VendorID(0x046D), ProductID(0xC21D)
+[2026-10-27 22:05:09.661] [info] [core] [t15920] SDL OnControllerDeviceAdded: connection order 0, device 1.
+[2026-10-27 22:05:10.360] [warning] [fs] [t15920] VFS: '.\sysPadConfig.bin' -> [no device]
+[2026-10-27 22:05:10.360] [error] [fs] [t15920] ResolvePath(.\sysPadConfig.bin) failed - device not found
+[2026-10-27 22:06:25.483] [info] [core] [t10900] Window closing, shutting down...
+[2026-10-27 22:06:25.690] [info] [core] [t10900] Title terminated; hard-exiting process.
