@@ -1,4 +1,5 @@
 # pes6-xbox-recomp
+Static recompilation of the XBOX 360 version of Pro Evolution Soccer 6, made using rexglue-sdk and ghidra
 
 [EN] In order to play the game, you have to provide your own game files, it can be through the game folder, an ISO of the game or the default.xex in the main folder of the game files. The only compatible version is the PAL version of PES 6
 Once install the game through the launcher, you can configure internal resolution in the pes6.toml file, you have to change the resolution_scale parameter, setting it to 1 makes it run on 720p (Native), setting it to 2 makes it run around 1080p and setting it to 3 makes it run around 4K
