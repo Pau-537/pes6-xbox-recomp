@@ -16,6 +16,7 @@ set(PES6_SOURCES
 )
 
 if(WIN32)
+    set(PES6_SOURCES ${PES6_SOURCES} resources.rc)
     add_executable(pes6 WIN32 ${PES6_SOURCES})
 else()
     add_executable(pes6 ${PES6_SOURCES})

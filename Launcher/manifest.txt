@@ -1,0 +1,25 @@
+# ---- Installer settings. Lines starting with # are comments. ----
+title     = PES 6
+game_exe  = pes6.exe
+game_root = pes6
+
+# One [version ...] block per supported release of the game.
+[version retail-pal]
+xex_sha256 = B76DB0FC2F86794F4E99BB4D93DD8148D31A00B518CB1E5C822EF0BC75AC1087
+require=cs.img
+require=cv.img
+require=default.xex
+require=movie50.wmv
+require=movie60.wmv
+require=rs_e.img
+require=rs_f.img
+require=rs_g.img
+require=rs_i.img
+require=rs_s.img
+require=rv_e.img
+require=rv_f.img
+require=rv_g.img
+require=rv_i.img
+require=rv_s.img
+copy = default.xex -> game/default.xex
+copy = -> game

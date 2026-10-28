@@ -1,0 +1,1 @@
+Inside payload put the compiled files from rexglue codegen

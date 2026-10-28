@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOWNLOADS\GAMEINSTALLERWIN\BUILD\CMAKEFILES\5DFDA273CD727D0D57CACC9405BBA0A8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/Downloads/GameInstallerWin -BC:/Users/Admin/Downloads/GameInstallerWin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Downloads/GameInstallerWin/build/GameInstaller.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

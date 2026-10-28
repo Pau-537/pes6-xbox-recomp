@@ -27,7 +27,5 @@ class Pes6App : public rex::ReXApp {
   // std::unique_ptr<rex::ui::AchievementNotificationDialog>
   // CreateAchievementNotificationDialog() override;
   // void OnShutdown() override {}
-  void OnConfigurePaths(rex::PathConfig& paths) override {
-    if(paths.game_data_root.empty()) paths.game_data_root = ExeDir() / "game";
-  }
+  //void OnConfigurePaths(rex::PathConfig& paths) override {  }
 };

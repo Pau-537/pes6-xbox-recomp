@@ -1,1 +1,6 @@
 out/
+dist/
+log.txt
+*.log
+*.obj
+*.o
