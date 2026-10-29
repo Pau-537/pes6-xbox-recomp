@@ -257,6 +257,8 @@ loc_82101314:
 	return;
 }
 
+extern void ClampWait(PPCRegister& r8);
+
 DEFINE_REX_FUNC(sub_82121C28) {
 	REX_FUNC_PROLOGUE();
 	// lis r11,-32256
@@ -332,6 +334,7 @@ loc_82121CAC:
 	ctx.r8.s64 = 1;
 loc_82121CB0:
 	// stw r8,15132(r11)
+	ClampWait(ctx.r8);
 	REX_STORE_U32(ctx.r11.u32 + 15132, ctx.r8.u32);
 	// blr 
 	return;

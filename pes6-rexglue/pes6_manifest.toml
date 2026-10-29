@@ -342,5 +342,10 @@ size = 0x68
 
 [entrypoint.functions.0x82AAA04C]
 size = 0x6C
+
+[[entrypoint.midasm_hook]]
+address = 0x82121CB0        # stw r8,15132(r11), the vblank wait count
+name = "ClampWait"
+registers = ["r8"]
  
 
